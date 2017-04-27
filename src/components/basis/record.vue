@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="record">
+  <router-link to="record" class="record">
       充值记录
-  </div>
+  </router-link>
 </template>
 
 <script>
