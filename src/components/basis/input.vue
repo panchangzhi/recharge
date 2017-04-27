@@ -36,7 +36,7 @@ export default {
   created() {
     if (this.type == 'tel') {
       this.maxLength = 13
-      this.spaceIndex = [4, 9]
+      this.spaceIndex = [4, 8]
     } else {
       this.maxLength = 22
       this.spaceIndex = [5, 9, 14]
