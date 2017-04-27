@@ -42,7 +42,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+    created(){
+        console.log('record created')
+    }
+}
 </script>
 
 <style lang="less" scoped>

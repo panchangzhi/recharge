@@ -113,6 +113,7 @@ export default {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background: #f5f5f5;
     overflow-y: scroll;
     .submit {
         flex: 1;
