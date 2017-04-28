@@ -75,6 +75,7 @@ export default {
     top: 0;
     right: 0;
     bottom: 0;
+    overflow-y: auto;
 }
 
 .go-enter-active, .go-leave {

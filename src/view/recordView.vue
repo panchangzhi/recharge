@@ -38,6 +38,191 @@
             </div>
 
         </div>
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon tel">&#xe6f2;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon oil">&#xe6ef;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon tel">&#xe6f2;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon oil">&#xe6ef;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon tel">&#xe6f2;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon oil">&#xe6ef;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon tel">&#xe6f2;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon oil">&#xe6ef;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon tel">&#xe6f2;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
+
+        <div class="item-record">
+            <!-- 日期 -->
+            <div class="time-wrapper">
+                <span class="date">21日</span>
+                <span class="day">19:00</span>
+            </div>
+
+            <!-- 充值类型icon -->
+            <div class="icon oil">&#xe6ef;</div>
+
+            <!-- 充值信息 -->
+            <div class="infor-order">
+                <p class="money">-9.08</p>
+                <p class="desc">充值10元－15321356606</p>
+                <span class="failed">交易失败</span>
+            </div>
+
+        </div>
     </div>
 </template>
 
@@ -45,6 +230,9 @@
 export default {
     created(){
         console.log('record created')
+    },
+    activated(){
+        console.log('activated record')
     }
 }
 </script>
