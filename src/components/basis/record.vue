@@ -1,11 +1,19 @@
 <template lang="html">
-  <router-link to="record" class="record">
+  <div class="record" @click="routerGO">
       充值记录
-  </router-link>
+  </div>
 </template>
 
 <script>
-export default {}
+import route from '../../router/index'
+
+export default {
+    methods:{
+        routerGO(){
+             route.push({name:'record',query:{key: (new Date()).valueOf()}})
+        }
+    }
+}
 </script>
 
 <style lang="less" scoped>
