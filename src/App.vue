@@ -5,10 +5,6 @@
       <router-view class="view"></router-view>
     </keep-alive>
   </transition>
-  <!-- <transition name="slide">
-        <router-view></router-view>
-    </transition> -->
-
 </div>
 </template>
 
@@ -21,7 +17,7 @@ export default {
       }
   },
   watch:{
-    //   '$route':'pageAnimation'
+      '$route':'pageAnimation'
   },
   methods:{
       pageAnimation(){
