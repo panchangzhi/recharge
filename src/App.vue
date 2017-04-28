@@ -21,7 +21,7 @@ export default {
       }
   },
   watch:{
-      '$route':'pageAnimation'
+    //   '$route':'pageAnimation'
   },
   methods:{
       pageAnimation(){
